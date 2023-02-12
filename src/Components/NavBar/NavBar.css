@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.nav-container .nav-hamburger {
+  display: none;
+}
+.nav-container {
+  height: 130px;
+  margin: 0px 100px;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: end;
+}
+
+.main-nav {
+  background-color: rgba(244, 247, 250, 0.855);
+
+  position: relative;
+  width: 100%;
+
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.9);
+}
+
+.menu-link ul {
+  font-size: 2rem;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+}
+.menu-link li {
+  margin-right: 40px;
+}
+
+.social-media a {
+  font-size: 2rem;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+  background: linear-gradient(93.58deg, #3fc7f4 0%, #29b67f 100%);
+  border-radius: 6.88356px;
+}
+
+@media (max-width: 1000px) {
+  .menu-link ul {
+    display: none;
+  }
+  .mobile-menu {
+    width: 30%;
+    position: absolute;
+    z-index: 99;
+    top: 25px;
+  }
+  .mobile-menu {
+    background-color: white;
+    height: 20rem;
+    margin-top: 10rem;
+
+    display: flex;
+
+    justify-content: center;
+    padding-left: 1rem;
+    opacity: 1;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  .mobile-menu ul {
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+  }
+  .nav-container .nav-hamburger {
+    display: block;
+    font-size: 3.5rem;
+  }
+  .nav-container {
+    justify-content: space-between;
+  }
+  .nav-container {
+    height: 130px;
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+  .social-media a {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(93.58deg, #3fc7f4 0%, #29b67f 100%);
+    border-radius: 6.88356px;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.text {
+  width: 600px;
+  font-size: xx-large;
+
+  padding: 25px 20px;
+}
+.text span {
+  color: #29b67f;
+}
+@media (max-width: 1000px) {
+  .text {
+    width: 100%;
+    font-size: xx-large;
+
+    padding: 25px 20px;
+  }
+}

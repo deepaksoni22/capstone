@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 532.12px;
+  height: 450.19px;
+  background: #fffdfd;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+
+  display: flex;
+
+  flex-direction: column;
+  margin-left: 185px;
+  margin-bottom: 50px;
+}
+.heading-wrapper span {
+  color: #29b67f;
+}
+.heading-wrapper {
+  width: 400px;
+
+  font-size: 40px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 47px;
+  text-align: center;
+
+  color: #172233;
+}
+.input-wrapper input {
+  width: 400px;
+
+  height: 41px;
+
+  margin: 18px 0;
+  text-decoration: none;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid rgba(129, 126, 126);
+  display: flex;
+
+  padding-bottom: 19px;
+}
+.button-wrapper {
+  width: 400px;
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border: none;
+}
+.button-wrapper button {
+  width: 180px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: white;
+  background: #c4c4c4;
+  border-radius: 5px;
+  border: none;
+}
+.button-wrapper #btn-2 {
+  background: linear-gradient(93.58deg, #3fc7f4 0%, #29b67f 100%);
+  border-radius: 5px;
+}
+.haveAcc-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.haveAcc-wrapper h3 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-right: 10px;
+}
+.haveAcc-wrapper button {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-decoration: none;
+  border: none;
+  background-color: white;
+  color: #29b67f;
+}
+@media (max-width: 1000px) {
+  .main {
+    width: 300px;
+    margin-left: 0;
+    border-radius: 25px;
+  }
+
+  .heading-wrapper span {
+    color: #29b67f;
+  }
+  .heading-wrapper {
+    width: 10em;
+
+    font-size: 3em;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 47px;
+    text-align: center;
+
+    color: #172233;
+  }
+  .input-wrapper input {
+    width: 10em;
+    height: 41px;
+
+    margin: 18px 0;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid rgba(129, 126, 126);
+    display: flex;
+
+    padding-bottom: 19px;
+  }
+  .button-wrapper {
+    width: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: none;
+  }
+  .button-wrapper button {
+    width: 90px;
+  }
+}

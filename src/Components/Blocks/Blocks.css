@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frame-1-wrapper {
+  position: relative;
+  width: 100%;
+
+  background: linear-gradient(100.08deg, #29b67f 0%, #3fc7f4 95.98%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 50px 50px;
+}
+
+.frame-1-image {
+  background-color: white;
+}
+.frame-1-wrapper #frame-1 {
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: contain;
+  padding: 70px 0px;
+}
+.text-1-wrapper {
+  width: 600px;
+}
+
+.text-1-wrapper p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.text-1-wrapper h1 {
+  color: white;
+
+  font-size: 51px;
+  font-weight: 700;
+  text-align: center;
+}
+.frame-2-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px 0px;
+}
+
+.frame-2-wrapper h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.paraButton p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+}
+.paraButton {
+  color: #828282;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+.paraButton button {
+  margin-top: 40px;
+  width: 275.34px;
+  height: 68.84px;
+  border: none;
+
+  color: white;
+  background: linear-gradient(93.58deg, #3fc7f4 0%, #29b67f 100%);
+  border-radius: 6.88356px;
+  font-family: Roboto;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+}
+.frame-3-wrapper {
+  position: relative;
+  width: 100%;
+
+  background: linear-gradient(101.13deg, #090736 1.15%, #172233 98.16%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 50px;
+}
+.frame-3-image {
+  background-color: white;
+}
+.frame-3-wrapper #frame-3 {
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.frame-3-text-wrapper {
+  width: 600px;
+}
+.frame-3-text-wrapper p {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.frame-3-text-wrapper h1 {
+  font-size: 51px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+#imgLine {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.frame-4-wrapper {
+  position: relative;
+  background: linear-gradient(282.48deg, #39b7fd -5.5%, #000000 60.76%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 50px;
+}
+
+.frame-4-wrapper #frame-4 {
+  width: 500px;
+  height: 400px;
+
+  object-fit: contain;
+  padding: 0px 0px;
+}
+.frame-4-text-wrapper {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-4-text-wrapper p {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+.frame-4-text-wrapper h1 {
+  font-size: 44px;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+}
+@media (max-width: 1000px) {
+  .frame-4-text-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .frame-4-wrapper #frame-4 {
+    width: 400px;
+    height: 300px;
+
+    object-fit: contain;
+    padding: 0px 0px;
+  }
+  .frame-4-text-wrapper h1,
+  .frame-4-text-wrapper p {
+    text-align: center;
+  }
+}
